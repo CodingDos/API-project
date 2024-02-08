@@ -1,0 +1,48 @@
+body {
+    background-color: lightblue;
+    display: grid;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+.everything {
+    display: flex;
+}
+
+.searchButton {
+    border-radius: 50%;
+}
+
+.btnImg {
+    border-radius: 50%;
+}
+
+.coinInformation {
+    display: flex;
+    flex-flow: wrap;
+}
+
+.coinInfo {
+    width: 175px;
+    height: 175px;
+    background-color: #368FF6;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2px;
+    margin: 5px;
+}
+
+.coinInfo > p {
+    margin: 0;
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+}
+
+
+
