@@ -1,5 +1,5 @@
 body {
-    background-color: lightblue;
+    background-color: lightgray;
     display: grid;
     font-family: Arial, Helvetica, sans-serif;
     color: black;
@@ -13,7 +13,7 @@ body {
     border-radius: 50%;
 }
 
-.btnImg {
+.logo {
     border-radius: 50%;
 }
 
@@ -23,6 +23,7 @@ body {
 }
 
 .coinInfo {
+    font-weight: 500;
     width: 175px;
     height: 175px;
     background-color: #368FF6;
@@ -33,6 +34,8 @@ body {
     text-align: center;
     padding: 2px;
     margin: 5px;
+    border-radius: 10%;
+    border-bottom: outset;
 }
 
 .coinInfo > p {
@@ -44,5 +47,28 @@ body {
     justify-content: center;
 }
 
+.tracked {
+    Display: flex;
+    justify-content: center;
+    font-weight: 700;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 
+.appName {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+@media (max-width: 773px){
+    .coinInfo{
+        font-weight: 50;
+    }
+    .tracked {
+        Display: flex;
+        justify-content: left;
+        font-weight: 200;
+        font-size: small;
+    }
+}
 
