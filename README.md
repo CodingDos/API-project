@@ -9,3 +9,9 @@ Built with:
 - JavaScript
 
 Steven Villacis - codingdos
+
+Future Implementation:
+
+- search bar
+- delete key
+- refresh frequency
